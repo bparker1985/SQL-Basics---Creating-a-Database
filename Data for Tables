@@ -1,0 +1,43 @@
+
+
+Table 1 Query:
+Create Table EmployeeDemographics 
+(EmployeeID int, 
+FirstName varchar(50), 
+LastName varchar(50), 
+Age int, 
+Gender varchar(50)
+)
+
+Table 2 Query:
+Create Table EmployeeSalary 
+(EmployeeID int, 
+JobTitle varchar(50), 
+Salary int
+)
+
+
+
+Table 1 Insert:
+Insert into EmployeeDemographics VALUES
+(1001, 'Duke', 'Nukem', 30, 'Male'),
+(1002, 'Brent', 'Dragonborn', 37, 'Male'),
+(1003, 'Elaine', 'Ruth', 29, 'Female'),
+(1004, 'Elvira', 'Manuel', 31, 'Female'),
+(1005, 'Toby', 'Charter', 32, 'Male'),
+(1006, 'Tom', 'Cruise', 45, 'Male'),
+(1007, 'Buddy', 'Richie', 36, 'Male'),
+(1008, 'Paul', 'Rud', 42, 'Male'),
+(1009, 'Angelina', 'Jolie', 33, 'Female')
+
+Table 2 Insert:
+Insert Into EmployeeSalary VALUES
+(1001, 'Trainer', 40000),
+(1002, 'Trainer', 45000),
+(1003, 'Caregiver', 63000),
+(1004, 'HR', 47000),
+(1005, 'Manager', 50000),
+(1006, 'Accountant', 65000),
+(1007, 'Salesman', 41000),
+(1008, 'Quality Control', 48000),
+(1009, 'Custodial', 42000)
